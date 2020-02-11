@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.backLineRepeat{
+  background-repeat: repeat-y;
+  height: 8px;
+}
+.logo{
+  position: absolute;
+  left: 180px;
+  top: 10px;
+}
+.delicious{
+  position: absolute;
+  left: 220px;
+  top: 10px;
+}
+.best-food{
+  position: absolute;
+  top: 30px;
+  left: 220px;
+  font-size: 10px;
+ 
+}
+.icons{
+  position: absolute;
+  left: 990px;
+  top: 20px;
+}
+
+.chocolate-pizza{
+  position: absolute;
+  left: 180px;
+  top: 100px;
+}
+h6{
+  position: absolute;
+  top: 120px;
+  left: 185px;
+  color: lightgray;
+}
+.pizzaImg{
+  position: absolute;
+  height: 550px;
+  width: 900px;
+  top: 200px;
+  left: 220px;
+}
+.p1{
+  position: absolute;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: left;
+  top: 800px;
+  left:15px;
+}
+.p2{
+  position: absolute;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: left;
+  top: 900px;
+  left:15px;
+}
+.receipImg{
+  position: absolute;
+  top:1050px;
+  left:200px;
+  z-index: 1;
+}
+.listItem{
+  column-count: 2;
+  font-size: 20px;
+  position: absolute;
+  top:1060px;
+  left:250px;
+  z-index: 2;
+}
+.item{
+  margin-top: 8px;
+}
+.authorImg{
+  position: absolute;
+  top: 1350px;
+  left:200px
+}
+.authorName{
+  position: absolute;
+  top: 1340px;
+  left:280px
+}
+.authorInfo{
+  font-size: 12px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 1390px;
+  left:280px
+}
+.button{
+  position: absolute;
+  top: 1370px;
+  left:920px;
+  background-color:rgb(189, 74, 32);
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+.footerImg{
+  position: absolute;
+  top: 1500px;
+}
+.footerInfo{
+  position: absolute;
+  top: 1560px;
+  color: grey;
+  font-size: 10px;
+  left:580px ;
+}
+.footerInfo2{
+  position: absolute;
+  top: 1570px;
+  color: grey;
+  font-size: 10px;
+  left:595px ;
+}
