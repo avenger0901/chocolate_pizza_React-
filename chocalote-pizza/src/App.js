@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header.js';
-// import Body from './Body';
-// import Footer from './Footer.js';
+import Body from './Body';
+import Footer from './Footer.js';
 import './App.css';
 
 
@@ -13,8 +13,8 @@ export default class App extends Component {
       <div className="App">
     
         <Header/>
-        {/* <Body />
-        <Footer  /> */}
+        <Body />
+        <Footer  />
     
       </div>
     );

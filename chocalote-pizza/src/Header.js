@@ -3,19 +3,25 @@ import React, { Component } from "react";
 
 
 const myLogo = 'assets/small-logo.png';
+const backLine = 'assets/hr-img.png';
 class Header extends Component {
    
   render() {
-      let array =["assets/fb-icon.png"];
+      let array =["assets/fb-icon.png","assets/twit-icon.png","assets/gp-icon.png","assets/insta-icon.png","assets/flic-icon.png","assets/pint-icon","assets/rss-icon.png","assets/mail-icon.png"];
       let images = array.map(image =>{
-          return <img key={image} src= {image} alt="" className="icons"/>
+          return <img key={image} src= {image} alt=""/>
       })
     return (
       <div>
-          <img src = {myLogo } alt ="" />
-        <div>{images}</div>
-        <span>Delicious</span>
-        <span className = "best-food">THE BEST FOOD BLOG ON THE WEB</span>
+          <img className ="logo" src = {myLogo } alt ="" />
+        <span className="delicious">Delicious</span>
+        <div className = "best-food">THE BEST FOOD BLOG ON THE WEB</div>
+        <div className="icons">
+          {images}
+        </div>
+        <div>
+          <img className="backLineRepeat" src ={backLine} alt =""/>
+        </div>
       </div>
     
     );
