@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 
 
-const myLogo = 'assets/small-logo.png';
+
 const backLine = 'assets/hr-img.png';
 class Header extends Component {
    
@@ -13,7 +13,7 @@ class Header extends Component {
       })
     return (
       <div>
-          <img className ="logo" src = {myLogo } alt ="" />
+          <img className ="logo" src = {this.props.myLogo } alt ="" />
         <span className="delicious">Delicious</span>
         <div className = "best-food">THE BEST FOOD BLOG ON THE WEB</div>
         <div className="icons">

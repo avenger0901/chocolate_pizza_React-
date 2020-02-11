@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 
-let pizzaImg="assets/choco-pizza.png";
+
 let receipImg="assets/list-bg.png";
 class Body extends Component {
 render() {
@@ -16,7 +16,7 @@ render() {
 
     <h6>PSOTED ON DEC 23 2013/DESSERT</h6>
     <div>
-        <img className="pizzaImg" src={pizzaImg} alt=""/>
+        <img className="pizzaImg" src={this.props.pizzaImg} alt=""/>
     </div>
     </div>
     <p className="p1">If you like cacio e pepe pasta, just imagine it in the form of a pizza. This underrated Neapolitan pizza place happens to be around the corner from my apartment in Park Slope. So I found myself there more often than almost anywhere else in 2019. The stand out pie on the menu is a conglomeration of cheeses, topped off with a generous pinch of black pepper. The post-oven ricotta dollops make for some standout Instagram shots (this pizza might win the award for “Best Dressed Pie” of 2019), but it wouldn’t be on this list if it wasn’t also delicious.</p>
